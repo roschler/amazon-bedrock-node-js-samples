@@ -1,3 +1,14 @@
+# Commit the node_modules directory for easier project duplication and because the index.js file in
+#  the alexa-app library has been modified by us.
+# node_modules
+*.DS_Store
 node_modules
 yarn.lock
-.DS_STORE
+npm-debug.log
+log
+.nyc_output
+coverage
+.idea
+.idea.new
+# No user data files.
+../../../data/user-data/
